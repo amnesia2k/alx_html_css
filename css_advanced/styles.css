@@ -307,3 +307,36 @@ nav ul li a {
   padding: 10px 20px;
   cursor: pointer;
 }
+
+.faq {
+  padding: 70px 120px;
+}
+
+.faq h2 {
+  padding-bottom: 50px;
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 75.42px;
+  text-align: center;
+}
+
+.faq-1 {
+  display: flex;
+  gap: 100px;
+}
+
+.faq-text h3 {
+  padding-bottom: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.11px;
+  text-align: left;
+}
+
+.faq-text p {
+  padding-bottom: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
