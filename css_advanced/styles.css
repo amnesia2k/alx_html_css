@@ -165,3 +165,90 @@ nav ul li a {
   line-height: 33.6px;
   text-align: left;
 }
+
+.videos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.videos-list {
+  padding: 80px 120px;
+}
+
+.videos-list h2 {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 40.22px;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.videos-list h2 span {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40.22px;
+  text-align: center;
+  color: var(--color-primary);
+}
+
+.videos-card {
+  width: 255px;
+}
+
+.videos-card h3,
+.videos-card p {
+  padding: 10px 10px 0 10px;
+}
+
+.videos-card h3 {
+  color: var(--color-secondary);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.11px;
+  text-align: left;
+}
+
+.videos-card p {
+  color: var(--color-secondary);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.review-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.review-profile img {
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.review-profile h4 {
+  color: var(--color-primary);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+}
+
+.review {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--color-primary);
+  padding: 0 10px;
+}
+
+.review p {
+  color: var(--color-primary);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: right;
+}
