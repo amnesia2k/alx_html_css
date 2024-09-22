@@ -252,3 +252,58 @@ nav ul li a {
   line-height: 27px;
   text-align: right;
 }
+
+.membership {
+  background: var(--color-secondary);
+  color: var(--text-light);
+  padding: 50px 120px;
+}
+
+.membership h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40.22px;
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.membership span {
+  color: var(--color-primary);
+}
+
+.member-smiles {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  text-align: center;
+}
+
+.members h3 {
+  padding-top: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.members p {
+  padding-top: 15px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.membership button {
+  margin: 100px auto 0;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.6px;
+  background: var(--color-primary);
+  color: var(--text-light);
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
