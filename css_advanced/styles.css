@@ -18,6 +18,10 @@
 
 body {
   font-family: "Source Sans Pro", sans-serif;
+  background: url(./assets/background.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 100%;
 }
 
 ul,
@@ -25,13 +29,6 @@ a {
   list-style-type: none;
   text-decoration: none;
   color: var(--text-light);
-}
-
-body {
-  background: url(./assets/background.png);
-  background-repeat: no-repeat;
-  background-position: top center;
-  width: 100%;
 }
 
 nav {
